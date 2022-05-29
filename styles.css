@@ -451,7 +451,26 @@ list-style-type: none;
   justify-content: center;
 }
 
+.users_list {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
 
+
+.users_table {
+width:80%;
+border:1px dotted black;
+}
+
+
+tr td {
+  border:1px dotted black;
+}
+ td{
+   width: 25%;
+ }
 
 
 
