@@ -1,6 +1,6 @@
 
 body {
-  background:url(./images/iconsbg.png) ;
+  background:url(./images/iconsbg.gif) ;
   background-size: auto;
   width:100vw;
   height:1000px;
@@ -337,7 +337,6 @@ list-style-type: none;
   justify-self: center;
   margin:50px 0 100px 0;
   width:100vw;
-  height:100vh;
   display:flex;
   flex-direction: column ;
   background-color: rgb(196, 220, 212);
