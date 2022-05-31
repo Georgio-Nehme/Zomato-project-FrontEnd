@@ -5,7 +5,7 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
 
 
 </head>
@@ -16,7 +16,7 @@
 <div class="topnav">
 
   <div class="topnav-right">
-      <a href="../index.html" class="nav_button"><b>Home</b></a>
+      <a href="../index.html" class="nav_button" id="home"><b>Home</b></a>
       <a href="sign_up_page.html" class="nav_button"><b>Sign up</b></a>
   </div>    
 
@@ -30,22 +30,20 @@
 
 </div>
 
-
-</body>
-
-
 <div class="login_container">
   
   <form id="form2" >
     <h1>Login</h1>
-        <input type="email" name="email" placeholder="Enter Your Email" class="login_input">
-        <input type="text" name="password" placeholder="Enter Your Password" class="login_input">
+        <input type="email" name="email" placeholder="Enter Your Email" class="login_input" id="email">
+        <input type="password" name="password" placeholder="Enter Your Password" class="login_input" id="password">
 
-        <button type="submit" form="form2" class="sign_button">Login</button>
+        <button type="submit" form="form2" class="sign_button" id="login">Login</button>
 
     </form>
 
 </div>
-
-
+<script src="scripts/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
 </html>
+

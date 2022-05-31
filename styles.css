@@ -17,13 +17,13 @@ body {
   padding: 0 6vw;
   margin: -10px;
   height: 350px;
-  opacity:0.7;
+ 
 }
 
 h1{
   font-size: 50px;
   color: rgb(253, 253, 253);
-  background-color: crimson;
+  background-color: #A8302C;
   border-radius: 15px;
   width:65%;
   text-align: center;
@@ -137,8 +137,9 @@ input {
   align-items: center;
   gap:15px;
   border-radius: 15px;
-  background-color: rgba(120, 174, 254, 0.815);
+  background-color: #5caef2d2 ;
 }
+
 .login_input{
   border-radius: 10px;
   width: 60%;
@@ -163,7 +164,7 @@ input {
   align-items: center;
   gap:15px;
   border-radius: 15px;
-  background-color: rgba(120, 174, 254, 0.815);
+  background-color:  #5caef2d2;
 
 }
 
@@ -189,7 +190,7 @@ input {
   width: 60%;
   height: 50%;
   height: 40px;
-  background-color: rgb(85, 173, 41);
+  background-color: #ECF244;
   font-size: 24px;
   cursor: pointer;
   
@@ -241,7 +242,7 @@ input {
   justify-content: center;
   align-items: center;
   margin: 40px 0 50px 0;
-  background-color:rgba(120, 174, 254, 0.815);
+  background-color: #5caef2d2;
   border-radius: 15px;
 }
 
@@ -268,7 +269,7 @@ input {
   height: 50px;
   border-radius: 5px;
   border:none;
-  background-color: rgb(31, 185, 90); 
+  background-color: #ECF244; 
   cursor: pointer; 
 }
 
@@ -286,7 +287,7 @@ input {
 .reviews_container{
 display:flex;
 flex-direction:column;
-background-color: cornflowerblue;
+background-color: #5caef2d2;
 border-radius: 25px;
 justify-content:center ;
 align-content: center;
@@ -332,11 +333,11 @@ list-style-type: none;
 }
 
 #accepted_button{
-  background-color:rgb(31, 185, 90);
+  background-color:#ECF244;
 }
 
 #rejected_button{
-  background-color:rgb(185, 31, 31);
+  background-color:A8302C;
 }
 
 
@@ -437,7 +438,7 @@ list-style-type: none;
   width:300px;
   margin: 0 0 50px 0;
   font-size: 24px;
-  background-color:rgb(31, 185, 90);
+  background-color:#ECF244;
   cursor: pointer;
   border-radius: 10% / 50%;
 }
@@ -448,7 +449,7 @@ list-style-type: none;
   height: 60px;
   margin: 0 0 50px 0;
   width:300px;
-  background-color: brown;
+  background-color: #A8302C;
   cursor: pointer;
   border-radius: 10% / 50%;
 }

@@ -4,7 +4,7 @@
     <title>List All Users</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
 </head>
 
 <body>
@@ -26,7 +26,7 @@
     <section class="users_list">
         <h1> List Of Users </h1>
         
-       <table class="users_table">
+       <table class="users_table" id="users_table">
             <tr>
                 <td>Id</td>
                 <td>Usernames</td>
@@ -38,14 +38,12 @@
                 <td id="name">test</td>
                 <td id="email">test</td>
                 <td id="phone_number">test</td>
-            </tr>
-
-            <tr>
-                <td class="id">test</td>
-                <td id="name">test</td>
-                <td id="email">test</td>
-                <td id="phone_number">test</td>
-            </tr>
+            </tr>      
        </table>
 
     </section>
+    <script src="./scripts/list_users.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+</body>
+</html>
