@@ -5,8 +5,7 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
-
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
 
@@ -21,64 +20,31 @@
 
 </div>
 
-
-
 <div class="zomato">
       <p><b>Zomato</b></p>
-</div>
-
-
+</div>  
 
 <div>
-
-    <div class="search_bar">
-      <input type="text" placeholder="Search for a Restaurant" id="searchbar">
-      <button class="search_button">Search</button>
-    </div>
-    
-
-
-</div>
-
+  <div class="search_bar">
+    <input type="text" placeholder="Search for a Restaurant" id="searchbar">
+    <button class="search_button">Search</button>
+  </div>
 </div>
 
 
 
-<div class="container">
-      <div class="box" style="background: url(images/br.jpg) ">
-        <p class="breakfast">Breakfast</p>
-      </div>
+<div class="restaurants_container">
+  <h1>Restaurants</h1>
+  
+  <ul class="restaurants">
 
-      <div class="box" style="background: url(images/lunch.jpg) ">
-        <p class="breakfast">Launch</p>
-      </div>
-
-</div>
-
-<p class="fav">Customers' Favorite!</p>
-
-
-<div class="container">
-
-      <div class="box" style="background: url(images/macdo.jpg) ">
-        <p class="breakfast">McDonald's</p>
-      </div>
-
-      <div class="box" style="background: url(images/KFC.jpg) ">
-        <p class="breakfast">KFC</p>
-      </div>
-
-       <div class="box" style="background: url(images/zaatar.jpg) ">
-        <p class="breakfast">ZAATAR W ZEIT</p>
-      </div>
-
-      <div class="box" style="background: url(images/swiss.jpg) ">
-        <p class="breakfast">Swiss Butter</p>
-      </div>
-
+    <li class="carousel">
+      <img id="restaurant_image">
+      <h3 class="restaurant_name">Restaurant Name</h3>
+    </li>
+  </ul>   
 
 </div>
-
 
 </body>
 </html>

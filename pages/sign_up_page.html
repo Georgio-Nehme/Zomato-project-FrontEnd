@@ -5,6 +5,7 @@
     <title>Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css">
+    
 
 
 </head>
@@ -35,19 +36,21 @@
 
     <form id="form1">
       <h1>Sign Up</h1>
-      <input type="text" name="sname" placeholder="Enter First Name" class="signup_input">
-      <input type="text" name="fname" placeholder="Enter Family Name" class="signup_input">
-      <input type="number" name="phone_number" placeholder="Enter Phone Number" class="signup_input">
-      <input type="email" name="email" placeholder="Enter Email" class="signup_input">
-      <input type="text" name="city" placeholder="Enter City" class="signup_input">
-      <input type="Password" name="user_password" placeholder="Enter Password" class="signup_input">
 
-      <button id="sign-up" type="submit" form="form1" class="sign_button">Sign Up</button>
+      <input type="text" name="username" placeholder="username" class="signup_input" id="Username">
+      <input type="number" name="phone_number" placeholder="Phone Number" class="signup_input" id="phone">
+      <input type="email" name="email" placeholder="Email" class="signup_input" id="email">
+      <!-- <input type="file" name="profile_picture"  class="signup_input" id="picture"> -->
+      <input type="Password" name="user_password" placeholder="Password" class="signup_input" id="password">
+
+      <button id="signup" type="submit" form="form1" class="sign_button">Sign Up</button>
 
     </form>
   </div>
 
-
+  <script src="scripts/signup.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
 </body>
 
 </html>
